@@ -1,0 +1,20 @@
+service: users
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+plugins:
+  - serverless-offline
+  - serverless-plugin-monorepo
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  hello:
+    handler: handler.list
+    events:
+      - http:
+          path: list
+          method: get
+          cors: true

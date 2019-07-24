@@ -1,4 +1,4 @@
 
 module.exports = {
-    encrypt: (value) => `ENCRYPTED:${value}`
+    encrypt: (value) => `CHANGED:${value}`
 }
