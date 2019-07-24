@@ -22,9 +22,11 @@
     "link": "lerna link --"
   },
   "devDependencies": {
-    "serverless": "^1.48.3",
     "lerna": "^3.16.3",
+    "serverless": "^1.48.3",
     "serverless-jetpack": "^0.5.0",
+    "serverless-plugin-common-excludes": "^2.4.0",
+    "serverless-plugin-include-dependencies": "^3.2.1",
     "serverless-plugin-monorepo": "^0.7.0"
   }
 }
