@@ -1,0 +1,27 @@
+{
+  "name": "mono",
+  "version": "0.0.1",
+  "description": "Sample mono repository layout for serverless",
+  "main": "index.js",
+  "author": "Adam McCormick",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ],
+    "nohoist": [
+      "**/services/**"
+    ]
+  },
+
+  "scripts": {
+    "test": "lerna run test --",
+    "deploy": "lerna run deploy --",
+    "go": "lerna link"
+  },
+
+  "devDependencies": {
+    "lerna": "^3.16.3"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "@yaka/crypto",
+  "version": "0.0.1",
+  "description": "Sample resuable package",
+  "main": "index.js",
+  "author": "Adam McCormick",
+  "license": "MIT",
+
+  "scripts": {
+    "test":"echo CRYPTO"
+
+  }
+}
