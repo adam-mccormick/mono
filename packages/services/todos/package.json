@@ -11,8 +11,7 @@
     "deploy": "serverless deploy"
   },
   "dependencies": {
-    "@yaka/crypto": "^0.0.1",
-    "serverless": "^1.48.3"
+    "@yaka/crypto": "^0.0.1"
   },
   "devDependencies": {
     "aws-sdk": "^2.12.0",

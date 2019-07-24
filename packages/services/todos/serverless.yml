@@ -4,11 +4,7 @@ frameworkVersion: ">=1.1.0 <2.0.0"
 
 plugins:
   - serverless-offline
-
-package:
-exclude:
-  - ./**
-  - '!node_modules/**'
+  - serverless-plugin-monorepo
 
 provider:
   name: aws
